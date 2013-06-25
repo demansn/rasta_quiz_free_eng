@@ -1,0 +1,368 @@
+/*
+    Document   : main
+    Created on : 28.03.2013, 21:36:10
+    Author     : demansn
+    Description:
+        Purpose of the stylesheet follows.
+*/
+root {
+		display: block;
+}
+
+body{
+		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+* {
+		-webkit-user-select:none;
+		-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+		-moz-user-select: none;
+		-o-user-select:none;
+		-khtml-user-select:none;
+		-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+		-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+		-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
+
+#app{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		font-family: Trebuchet MS;
+		background-image: url(../img/border-tile.png);
+
+}
+
+#gameArea{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		width: 600px;
+		height: 400px;
+		margin-left: -300px;
+		margin-top: -200px;
+		background-image: url(../img/backgound.png);
+		background-size: 88% 82%;
+		background-position-x: 50%;
+		background-position-y: 50%;
+		background-repeat: no-repeat;
+}
+#advresing{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width:  100%;
+		height: 100%;
+		z-index: 100;
+		display: none;
+}
+.advresing{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width:  100%;
+		height: 100%;
+		display: block;
+}
+
+#adView{
+		position: absolute;
+		width: 100%;
+		height: 85%;
+		top: 7.5%;
+		left: 0px;
+}
+#adLine{
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+		height: 7.5%;
+		z-index: 1;
+		background-image: url(../img/border-tile.png);
+}
+
+#timeView{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 7.5%;
+		text-align: center;
+		z-index: 1;
+		font-size: 1.8em;
+		font-weight: bold;
+		color: red;
+		background-image: url(../img/border-tile.png);
+}
+.screen{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+}
+/* main */
+#mainScreen{
+		display: none;
+}
+
+#mainScreen h1{
+		position: absolute;
+		top: 7%;
+		width: 100%;
+		text-align: center;
+		font-size: 4em;
+}
+
+#mainScreen p {
+		position: absolute;
+		top: 23%;
+		width: 100%;
+		text-align: center;
+		font-size: 2.1em;
+}
+
+#mainScreen p + p{
+		position: absolute;
+		top: 57%;
+		width: 100%;
+		text-align: center;
+		font-size: 2.1em;
+
+}
+/* menu */
+#menuScreen{
+		display: none;
+		font-size: 2em;
+}
+.menuItem{
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		z-index: 3;
+}
+
+#menuText-1{
+		font-weight: bold;
+		top: 12%;
+}
+
+#item-1{
+		top: 22%;
+}
+
+#item-2{
+		top: 30%;
+}
+
+#item-3{
+		top: 38%;
+}
+
+#item-4{
+		top: 46%;
+}
+
+#item-5{
+		top: 54%;
+}
+
+#item-6{
+		top: 61%;
+}
+
+#item-0{
+		top: 70%;
+}
+
+#about{
+		font-weight: bold;
+		top: 75%;
+}
+
+/* game */
+
+#gameScreen{
+		display: none;
+		font-size: 1.8em;
+		text-align: center;
+}
+
+#questionView{
+		position: relative;
+		left: 50%;
+		text-align: center;
+		width: 83.3%;
+		height: auto;
+		margin-top: 10%;
+		margin-left: -41.6%;
+		line-height: 100%;
+		font-weight: bold;
+		font-size: 1.1em;
+}
+
+.answer{
+		position: relative;
+		left: 50%;
+		margin-left: -41.6%;
+		text-align: center;
+		width: 83.3%;
+		margin-bottom: -1%;
+		z-index: 3;
+		font-size: 1em;
+		-webkit-user-select:none;
+		-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+		-moz-user-select: none;
+		-o-user-select:none;
+		-khtml-user-select:none;
+		background: rgba(0,0,0,0);
+}
+
+#answerView-1{
+		margin-top: 5%;
+}
+/*
+#answerView-2{
+	bottom: 110px;;
+}
+
+#answerView-3{
+	bottom: 70px;
+}
+*/
+.line{
+		position: relative;
+		left: 50%;
+		margin-left: -10%;
+		text-align: center;
+		size: 0.1%;
+		width: 20%;
+		margin-top: 2%;
+		margin-bottom: 1%;
+		color: rgba(0,0,0,0.1);
+}
+
+#lineView-1{
+
+}
+
+#lineView-2{
+
+}
+
+.hampBorder{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+}
+
+#borderView-1{
+		background-image: url(../img/border-1.png);
+		display: block;
+}
+
+#borderView-2{
+		background-image: url(../img/border-2.png);
+		display: block;
+}
+
+#backButtonView{
+		position: absolute;
+		left: 8%;
+		bottom: 14%;
+		width: 4em;
+		height: 3em;
+		z-index: 10;
+		background-image: url(../img/back.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+}
+#backButtonView.selected{
+		background-image: url(../img/backSelected.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+}
+
+#forwardButtonView{
+		position: absolute;
+		right: 8%;
+		bottom: 14%;
+		width: 4em;
+		height: 3em;
+		z-index: 10;
+		background-image: url(../img/forward.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+}
+#forwardButtonView.selected{
+		background-image: url(../img/forwardSelected.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+}
+
+#aboutButtonView{
+		position: absolute;
+		left: 8%;
+		bottom: 24%;
+		width: 4em;
+		height: 2em;
+		z-index: 10;
+		background-image: url(../img/ik2.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+}
+#aboutButtonView.selected{
+		background-image: url(../img/ik2Selected.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+}
+
+#menuButtonView{
+		position: absolute;
+		right: 8%;
+		bottom: 24%;
+		width: 4em;
+		height: 2em;
+		z-index: 10;
+		background-image: url(../img/ik3.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+}
+#menuButtonView.selected{
+		background-image: url(../img/ik3Selected.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+}
+
+.hover{
+		cursor: pointer;
+}
+
+#about {
+		display: none;
+		width: 100%;
+		height: 100%;
+		width: 100%;
+		height: 100%;
+		left: 0px;
+		top: 0px;
+}
+
+#aboutText{
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 30%;
+		font-size: 1.6em;
+		z-index: 10;
+}
