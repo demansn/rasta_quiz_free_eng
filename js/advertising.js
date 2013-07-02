@@ -2,11 +2,14 @@ GameHempPuzzles.advresing = {
 };
 
 GameHempPuzzles.advresing.data = [
+		"img/ads/reklama0.jpg",
 		"img/ads/reklama1.jpg",
 		"img/ads/reklama2.jpg",
 		"img/ads/reklama3.jpg",
 		"img/ads/reklama4.jpg",
-		"img/ads/reklama5.jpg"
+		"img/ads/reklama5.jpg",
+		"img/ads/reklama6.jpg",
+		"img/ads/reklama7.jpg"
 ];
 
 GameHempPuzzles.advresing.imgs = [];
@@ -15,7 +18,7 @@ GameHempPuzzles.advresing.container = 0;
 GameHempPuzzles.advresing.time = 5;
 GameHempPuzzles.advresing.counterTime = 0;
 GameHempPuzzles.advresing.target = 12;
-GameHempPuzzles.advresing.counter = 0;
+GameHempPuzzles.advresing.counter = 12;
 GameHempPuzzles.advresing.timeView = null;
 GameHempPuzzles.advresing.view = null;
 
@@ -60,9 +63,9 @@ GameHempPuzzles.advresing.show = function() {
 				this.counter += 1;
 		} else {
 				this.counter = 0;
-				this.next();
 				this.view.style.display = "block";
 				//setTimeout(this.hide.bind(this), this.time);
+
 				this.updateTime();
 		}
 };
@@ -75,7 +78,7 @@ GameHempPuzzles.advresing.showNow = function() {
 
 GameHempPuzzles.advresing.updateTime = function() {
 		try {
-				this.timeView.innerHTML = "Bro, get some rest! We will return to the game through " + (this.time - this.counterTime) + " seconds!";
+				this.timeView.innerHTML = "Bro rest! We will return to the game after " + (this.time - this.counterTime) + " seconds!";
 
 				if (this.counterTime < this.time) {
 						this.counterTime += 1;

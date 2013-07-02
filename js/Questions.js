@@ -111,8 +111,17 @@ GameHempPuzzles.questions.types = {
 };
 
 GameHempPuzzles.questions._0 = [{
+				"id": 2,
+				"question": "What does the word \"grower\" mean?",
+				"answers": {
+						"a": "A man who grows cannabis",
+						"b": "Wild lady in red",
+						"c": "An Internet provider"
+				},
+				"type": "_1"
+		}, {
 				"id": 3,
-				"question": "Who is the key person in \"Green House Seed Company\"?",
+				"question": "Who's the boss of the \"Green House Seed Company\"?",
 				"answers": {
 						"a": "Arjan",
 						"b": "Marjan",
@@ -121,16 +130,16 @@ GameHempPuzzles.questions._0 = [{
 				"type": "_6"
 		}, {
 				"id": 4,
-				"question": "How is white widow related to the cannabis world?",
+				"question": "What does the term 'white widow' has to do with cannabis?",
 				"answers": {
 						"a": "It is the name of a cannabis strain",
-						"b": "A name of a Catholic saint, who patrons hemp",
-						"c": "A nickname given to Holland's President First Lady"
+						"b": "A nickname of a Catholic saint, who patrons hemp",
+						"c": "A nickname given to Holland's First Lady"
 				},
 				"type": "_1"
 		}, {
 				"id": 5,
-				"question": "What should one do if plants in a grow box started forming both \"hairs\" and \"balls\"?",
+				"question": "What should you do if the plants in your grow box started forming flowers in the shape of 'hairs' and 'balls' and you're planning on growing sensemilia?",
 				"answers": {
 						"a": "Destroy those with \"balls\"",
 						"b": "Destroy those with \"hairs\"",
@@ -139,7 +148,7 @@ GameHempPuzzles.questions._0 = [{
 				"type": "_6"
 		}, {
 				"id": 6,
-				"question": "In what country you can legally purchase and smoke cannabis with no special permission?<br>",
+				"question": "In which country can you legally purchase and consume cannabis products without any special permission or license?<br>",
 				"answers": {
 						"a": "Holland<br>",
 						"b": "Spain",
@@ -148,7 +157,7 @@ GameHempPuzzles.questions._0 = [{
 				"type": "_1"
 		}, {
 				"id": 7,
-				"question": "Name one of the most stylish coffee shops in Amsterdam.",
+				"question": "A coffe shop in Amsterdam that has a black raven for a mascot",
 				"answers": {
 						"a": "Abraxas",
 						"b": "Axuoopp",
@@ -157,16 +166,16 @@ GameHempPuzzles.questions._0 = [{
 				"type": "_6"
 		}, {
 				"id": 8,
-				"question": "What kind of hashish is mostly consumed in Europe? ",
+				"question": "What is the most common origin for the Hashish that's being imported to Europe?",
 				"answers": {
-						"a": "Moroccan",
-						"b": "Afghani",
-						"c": "Buryatian"
+						"a": "Morocco",
+						"b": "Afghanistan",
+						"c": "India"
 				},
 				"type": "_2"
 		}, {
 				"id": 9,
-				"question": "Which American state first implied the medicinal marijuana program?",
+				"question": "Which American state had first implied the medicinal marijuana program?",
 				"answers": {
 						"a": "California, 1996",
 						"b": "Alaska, 2000",
@@ -202,15 +211,6 @@ GameHempPuzzles.questions._0 = [{
 				"type": "_6"
 		}, {
 				"id": 13,
-				"question": "A country where police brutality against stoners is an everyday occurrence",
-				"answers": {
-						"a": "Russia",
-						"b": "The Netherlands",
-						"c": "Spain"
-				},
-				"type": "_4"
-		}, {
-				"id": 14,
 				"question": "Who discovered THC?",
 				"answers": {
 						"a": "Raphael Mechoulam, 1964",
@@ -219,16 +219,16 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 15,
-				"question": "Whats the best place to store hash while traveling?",
+				"id": 14,
+				"question": "Whats the best place stash hashish while traveling?",
 				"answers": {
-						"a": "Better not to store, but purchase on arrival",
-						"b": "In the pocket",
-						"c": "In the shoes"
+						"a": "Smuggling drugs from one country to another is highly unadvised, it's better to score on arrival from the locals",
+						"b": "A pocket is a perfect place for a stash",
+						"c": "The shoes will do, especially since you have to take them off in the airport anyway"
 				},
 				"type": "_"
 		}, {
-				"id": 16,
+				"id": 15,
 				"question": "In which region of Morocco most of the hash production takes place?",
 				"answers": {
 						"a": "Ketama mountainside",
@@ -237,7 +237,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 17,
+				"id": 16,
 				"question": "Why do some growers use perforated pots?",
 				"answers": {
 						"a": "For better air flow and easy roots clipping",
@@ -246,7 +246,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 19,
+				"id": 17,
 				"question": "How much would a fully grown cannabis clone plant cost in an Austrian grow shop?",
 				"answers": {
 						"a": "6 to 9 euros per root",
@@ -255,7 +255,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 20,
+				"id": 18,
 				"question": "What are the most popular Rastaman Seeds strains?",
 				"answers": {
 						"a": "Kalashnikoff, Cool Rasta, Hash Plant",
@@ -264,7 +264,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 22,
+				"id": 19,
 				"question": "The name of a Spanish stoner magazine. ",
 				"answers": {
 						"a": "Yerba",
@@ -273,16 +273,16 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 23,
+				"id": 20,
 				"question": "What's the main safety tip for a professional grower?",
 				"answers": {
 						"a": "Don't tell anyone about your hobby",
 						"b": "Don't think too much",
-						"c": "Always wash your hands after midnight"
+						"c": "Always wash your hands after using the bathroom"
 				},
 				"type": "_3"
 		}, {
-				"id": 24,
+				"id": 21,
 				"question": "What's a nickname for those individuals who grow pot in secretive outdoor plantations?",
 				"answers": {
 						"a": "Guerrilla growers",
@@ -291,7 +291,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_1"
 		}, {
-				"id": 26,
+				"id": 22,
 				"question": "Name an ancient empire in which hashish was considered an everyday common product.",
 				"answers": {
 						"a": "Mongol Empire",
@@ -300,7 +300,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 27,
+				"id": 23,
 				"question": "A cannabis strain named after its blue color",
 				"answers": {
 						"a": "Blueberry",
@@ -309,7 +309,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_1"
 		}, {
-				"id": 28,
+				"id": 24,
 				"question": "Name a Canadian trimming gear company",
 				"answers": {
 						"a": "Trimpro",
@@ -318,7 +318,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 29,
+				"id": 25,
 				"question": "Which cannabinoid is believed to be the most promising in terms of controlling the spread of cancer cells?",
 				"answers": {
 						"a": "CBD",
@@ -327,7 +327,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 30,
+				"id": 26,
 				"question": " A medieval Islamic sect which was also known as \"the hashish eaters\".",
 				"answers": {
 						"a": "Assassins",
@@ -336,7 +336,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 31,
+				"id": 27,
 				"question": "What for should artificial lighting in a grow box be changed to the 12/12 on/off period?",
 				"answers": {
 						"a": "To stimulate flowering",
@@ -345,16 +345,16 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 32,
+				"id": 28,
 				"question": "In which region a nickname 'dagga' for marijuana is common?",
 				"answers": {
-						"a": "ЮАР",
-						"b": "Сомали",
-						"c": "Марокко"
+						"a": "South Africa",
+						"b": "Somalia",
+						"c": "Morocco"
 				},
 				"type": "_3"
 		}, {
-				"id": 33,
+				"id": 29,
 				"question": "Who was the author of the Hashish Poem?",
 				"answers": {
 						"a": "Charles Baudelaire",
@@ -363,7 +363,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 37,
+				"id": 30,
 				"question": "A region in Kazakhstan where wild hemp grows in large numbers. ",
 				"answers": {
 						"a": "Chui valley",
@@ -372,7 +372,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 38,
+				"id": 31,
 				"question": "What's HESI ?",
 				"answers": {
 						"a": "Fertilizer brand",
@@ -381,7 +381,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 40,
+				"id": 32,
 				"question": "A brand of automatic pollinating machines.",
 				"answers": {
 						"a": "Pollinator",
@@ -390,7 +390,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 42,
+				"id": 33,
 				"question": "Which hashish is grown at the highest point of all?",
 				"answers": {
 						"a": "Nepalese",
@@ -399,7 +399,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 43,
+				"id": 34,
 				"question": "Which countries have the most draconian drug laws?",
 				"answers": {
 						"a": "Thailand, China, United Arab Emirates, Turkey, Sweden",
@@ -408,7 +408,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 44,
+				"id": 35,
 				"question": "What is aeroponics?",
 				"answers": {
 						"a": "The roots of a plant are being grown in an air or mist environment without the use of soil",
@@ -417,88 +417,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 46,
-				"question": "Which European country has four major annual cannabis fairs?",
-				"answers": {
-						"a": "Spain",
-						"b": "Holland",
-						"c": "Austria"
-				},
-				"type": "_4"
-		}, {
-				"id": 47,
-				"question": "How much weed do Holland coffee shops are allowed to serve per customer?",
-				"answers": {
-						"a": "Not more than five grams",
-						"b": "Not more than seven grams",
-						"c": "Not more than forty grams"
-				},
-				"type": "_4"
-		}, {
-				"id": 48,
-				"question": "What may happen if you attempt driving stoned?",
-				"answers": {
-						"a": "You can get into lots of trouble",
-						"b": "Everything's gonna be fine",
-						"c": "The car won't start"
-				},
-				"type": "_1"
-		}, {
-				"id": 49,
-				"question": "True or false: Portugal is hard on stoners.",
-				"answers": {
-						"a": "False, Portugal laws are soft on pot smokers",
-						"b": "True, possession can lead to imprisonment",
-						"c": "Trick question: Portugal has no laws"
-				},
-				"type": "_4"
-		}, {
-				"id": 50,
-				"question": "What do you need to get a medicinal marijuana card in USA?",
-				"answers": {
-						"a": "Doctor's recommendation",
-						"b": "Doctor's prescription",
-						"c": "Doctor's degree"
-				},
-				"type": "_4"
-		}, {
-				"id": 51,
-				"question": "The lamps of which color temperature are used at the flowering stage of growing?",
-				"answers": {
-						"a": "2700–3000К",
-						"b": "4000–4200К",
-						"c": "5200–6500К"
-				},
-				"type": "_6"
-		}, {
-				"id": 52,
-				"question": "What can hemp oil be used for?",
-				"answers": {
-						"a": "Salad dressing",
-						"b": "Engine greasing",
-						"c": "Getting high"
-				},
-				"type": "_1"
-		}, {
-				"id": 53,
-				"question": "Which product is gathered by rubbing the tops of marijuana plants?",
-				"answers": {
-						"a": "Hashish",
-						"b": "Opium",
-						"c": "Marijuana"
-				},
-				"type": "_1"
-		}, {
-				"id": 54,
-				"question": "For how long can THC be traced in saliva?",
-				"answers": {
-						"a": "Up to 4 hours",
-						"b": "10 hours",
-						"c": "24 hours"
-				},
-				"type": "_5"
-		}, {
-				"id": 56,
+				"id": 36,
 				"question": "What kind of strains produce the most marijuana?",
 				"answers": {
 						"a": "Feminized",
@@ -507,7 +426,97 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_1"
 		}, {
-				"id": 57,
+				"id": 37,
+				"question": "Which European country has four major annual cannabis fairs?",
+				"answers": {
+						"a": "Spain",
+						"b": "Holland",
+						"c": "Austria"
+				},
+				"type": "_4"
+		}, {
+				"id": 38,
+				"question": "How much weed do Holland coffee shops are allowed to serve per customer?",
+				"answers": {
+						"a": "Not more than five grams",
+						"b": "Not more than seven grams",
+						"c": "Not more than forty grams"
+				},
+				"type": "_4"
+		}, {
+				"id": 39,
+				"question": "What may happen if you attempt driving stoned?",
+				"answers": {
+						"a": "You can get into lots of trouble",
+						"b": "Everything's gonna be fine",
+						"c": "The car won't start"
+				},
+				"type": "_1"
+		}, {
+				"id": 40,
+				"question": "True or false: Portugal is hard on stoners.",
+				"answers": {
+						"a": "False, Portugal laws are soft on pot smokers",
+						"b": "True, possession can lead to imprisonment",
+						"c": "Trick question: Portugal has no laws"
+				},
+				"type": "_4"
+		}, {
+				"id": 41,
+				"question": "What do you need to get a medicinal marijuana card in USA?",
+				"answers": {
+						"a": "Doctor's recommendation",
+						"b": "Doctor's prescription",
+						"c": "Doctor's degree"
+				},
+				"type": "_4"
+		}, {
+				"id": 42,
+				"question": "The lamps of which color temperature are used at the flowering stage of growing?",
+				"answers": {
+						"a": "2700–3000К",
+						"b": "4000–4200К",
+						"c": "5200–6500К"
+				},
+				"type": "_6"
+		}, {
+				"id": 43,
+				"question": "What can hemp oil be used for?",
+				"answers": {
+						"a": "Salad dressing",
+						"b": "Engine greasing",
+						"c": "Getting high"
+				},
+				"type": "_1"
+		}, {
+				"id": 44,
+				"question": "Which product is gathered by rubbing the tops of marijuana plants?",
+				"answers": {
+						"a": "Hashish",
+						"b": "Opium",
+						"c": "Marijuana"
+				},
+				"type": "_1"
+		}, {
+				"id": 45,
+				"question": "For how long can THC be traced in saliva?",
+				"answers": {
+						"a": "Up to 4 hours",
+						"b": "10 hours",
+						"c": "24 hours"
+				},
+				"type": "_5"
+		}, {
+				"id": 46,
+				"question": "A Dutch company that produces pre-rolled cigarette paper cones.",
+				"answers": {
+						"a": "Vandenberg Special Products",
+						"b": "Scania Machines",
+						"c": "Bulwers Polwers"
+				},
+				"type": "_5"
+		}, {
+				"id": 47,
 				"question": "Name three German cannabis-themed magazines",
 				"answers": {
 						"a": "Hanf, Hanfblatt, Grow",
@@ -516,7 +525,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 58,
+				"id": 48,
 				"question": "What's CAN Filters?",
 				"answers": {
 						"a": "A Dutch brand of coal filters",
@@ -525,7 +534,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 59,
+				"id": 49,
 				"question": "What is a grinder?",
 				"answers": {
 						"a": "An instrument for grinding buds",
@@ -534,7 +543,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 60,
+				"id": 50,
 				"question": "That is mixed into the ground to loosen it, so it was easier for roots to grow?",
 				"answers": {
 						"a": "Perlite granules",
@@ -543,7 +552,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 61,
+				"id": 51,
 				"question": "In what country many citizen are Rastamans?",
 				"answers": {
 						"a": "Jamaica",
@@ -552,7 +561,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 62,
+				"id": 52,
 				"question": "Who is considered the creator of feminized seeds?",
 				"answers": {
 						"a": "Henk van Daelen from the Dutch Passion company",
@@ -561,16 +570,16 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 63,
+				"id": 53,
 				"question": "Can marijuana be legally purchased in Denmark?",
 				"answers": {
-						"a": "Hashish is almost legal in Christiania, a hippie commune in the center of Copenhagen",
+						"a": "Hashish is virtually legal in Christiania, a famous hippie commune in the center of Copenhagen",
 						"b": "No way, no how",
 						"c": "Only if you have connections"
 				},
 				"type": "_4"
 		}, {
-				"id": 64,
+				"id": 54,
 				"question": "What was the name of the first Dutch coffee shop?",
 				"answers": {
 						"a": "Yellow Mellow, 1973",
@@ -579,7 +588,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 65,
+				"id": 55,
 				"question": "What is hemp?",
 				"answers": {
 						"a": "The fibers derived from cannabis stalk",
@@ -588,17 +597,26 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_1"
 		}, {
-				"id": 67,
-				"question": "What do you need to dry the buds?",
+				"id": 56,
+				"question": "",
 				"answers": {
-						"a": "Warm, dry room",
-						"b": "Hot, wet conditions",
-						"c": "Freezer and icecream"
+						"a": "",
+						"b": "",
+						"c": ""
 				},
 				"type": "_"
 		}, {
-				"id": 68,
-				"question": "What is the 'secret ingredient' in Plagron Guano fertilizer?",
+				"id": 57,
+				"question": "What is necessery for the drying of harvested buds?",
+				"answers": {
+						"a": "A warm, dry room",
+						"b": "Hot, wet conditions",
+						"c": "A freezer and icecream"
+				},
+				"type": "_"
+		}, {
+				"id": 58,
+				"question": "What is the 'secret ingredient' in the Plagron Guano fertilizer?",
 				"answers": {
 						"a": "Bat shit",
 						"b": "Bird guano",
@@ -606,7 +624,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 69,
+				"id": 59,
 				"question": "How much THC can be found in technical hemp?",
 				"answers": {
 						"a": "Not more then 0,3%",
@@ -615,7 +633,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 70,
+				"id": 60,
 				"question": "Which organ does the THC impact mostly?",
 				"answers": {
 						"a": "Brain",
@@ -624,8 +642,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 71,
-				"question": "What percentage of the European population uses cannabis regularly?",
+				"id": 61,
+				"question": "Which percentage of the European population uses cannabis regularly today?",
 				"answers": {
 						"a": "2-3%",
 						"b": "0,5-2%",
@@ -633,7 +651,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 72,
+				"id": 62,
 				"question": "Who is the author of \"Grower's Bible\"?",
 				"answers": {
 						"a": "Jorge Cervantes",
@@ -642,8 +660,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 73,
-				"question": "What penalty would a pot smoker face in Sweden?",
+				"id": 63,
+				"question": "What kind of penalty would a pot smoker face in Sweden?",
 				"answers": {
 						"a": "Mandatory rehab",
 						"b": "Jail sentence",
@@ -651,8 +669,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 74,
-				"question": "What TV channel was first to show a documentary series on the consumption and cultivation of cannabis?",
+				"id": 64,
+				"question": "What TV channel was the first to make a TV documentary about modern pot growing and cannabis culture?",
 				"answers": {
 						"a": "National Geographic",
 						"b": "CNN",
@@ -660,8 +678,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 75,
-				"question": "The most popular weed-themed app for an iPhone?",
+				"id": 65,
+				"question": "What is the most downloadable weed-themed app for an iPhone today?",
 				"answers": {
 						"a": "Weed Strains 3D Pro",
 						"b": "Weedypedia",
@@ -669,16 +687,16 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 76,
-				"question": "What does Green Sensation from Plagron?",
+				"id": 66,
+				"question": "What is the Green Sensation from Plagron good for?",
 				"answers": {
-						"a": "Buds will grow bigger",
-						"b": "Stem will grow thicker",
+						"a": "It makes the buds grow bigger",
+						"b": "It makes the stem grow thicker",
 						"c": "Less harvest, more THC"
 				},
 				"type": "_6"
 		}, {
-				"id": 77,
+				"id": 67,
 				"question": "What should be done to a plant to increase its branching?",
 				"answers": {
 						"a": "Clipping of the top branching",
@@ -687,8 +705,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 78,
-				"question": "Who deals hashish in India mostly?",
+				"id": 68,
+				"question": "Which social group deals mostly with hashish-pushing in India today?",
 				"answers": {
 						"a": "Cab drivers",
 						"b": "Customs officials",
@@ -696,8 +714,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 79,
-				"question": "In which period of history the \"Club of the Hashish-Eaters\" existed in Paris?",
+				"id": 69,
+				"question": "When did the \"Club of the Hashish-Eaters\" existed in Paris?",
 				"answers": {
 						"a": "End of XIX century, 1870...",
 						"b": "Beginning of the XVII century, 1710 …",
@@ -705,7 +723,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 80,
+				"id": 70,
 				"question": "In which clever way were the members of \"Brotherhood of Eternal Love\" smuggling hashish into US?",
 				"answers": {
 						"a": "By stuffing surfing boards with it",
@@ -714,7 +732,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 81,
+				"id": 71,
 				"question": "What is the name of a smoking pipe, which when smoked is clamped between the little finger and ring finger, and the smoke is inhaled through a clenched fist?",
 				"answers": {
 						"a": "Chillum",
@@ -723,7 +741,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 82,
+				"id": 72,
 				"question": "What is the name of the an Indian god who smokes chillum?",
 				"answers": {
 						"a": "Shiva",
@@ -732,7 +750,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 83,
+				"id": 73,
 				"question": "What is the right way to dry one's harvest?",
 				"answers": {
 						"a": "Cutting the tops of the bushes hanging them downwards in a dark dry place",
@@ -741,8 +759,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 84,
-				"question": "Two American comedians, the fathers of stoner comedy.",
+				"id": 74,
+				"question": "Two comedians, who are considered the fathers of stoner comedy.",
 				"answers": {
 						"a": "Cheech and Chong",
 						"b": "Abbott and Costello",
@@ -750,7 +768,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 85,
+				"id": 75,
 				"question": "What is the most popular among the rastamans coast of India?",
 				"answers": {
 						"a": "Goa",
@@ -759,7 +777,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 86,
+				"id": 76,
 				"question": "Which of these strains is considered to be the most effective for the relief of chronic pain?",
 				"answers": {
 						"a": "White Rhino",
@@ -768,25 +786,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 87,
-				"question": "Гибрид Blueberry с украинской генетикой?",
-				"answers": {
-						"a": "Crimean Blue",
-						"b": "Ukrainian Hashplant",
-						"c": "Donetsk White"
-				},
-				"type": "_6"
-		}, {
-				"id": 89,
-				"question": "The name of the Dutch company, which produces cigarette-paper-cones for those who are too lazy to roll their own",
-				"answers": {
-						"a": "Vandenberg Special Products",
-						"b": "Scania Machines",
-						"c": "Bulwers Polwers"
-				},
-				"type": "_5"
-		}, {
-				"id": 90,
+				"id": 77,
 				"question": "What was the name the very first festival of smokers and cannabis breeders?",
 				"answers": {
 						"a": "Cannabis Cup",
@@ -795,7 +795,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 91,
+				"id": 78,
 				"question": "In what substance THC can be dissolved?",
 				"answers": {
 						"a": "Ethanol",
@@ -804,7 +804,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 92,
+				"id": 79,
 				"question": "Which European countries banned the sale of cannabis seeds (in 2013)?",
 				"answers": {
 						"a": "Germany, France, Switzerland",
@@ -813,7 +813,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 93,
+				"id": 80,
 				"question": "Other words for \"joint\"?",
 				"answers": {
 						"a": "Spliff, blunt, doobie",
@@ -822,7 +822,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 94,
+				"id": 81,
 				"question": "What is the most effective way to minimize the harm to the organism by smoking cannabis?",
 				"answers": {
 						"a": "Using a vaporizer",
@@ -831,7 +831,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 97,
+				"id": 82,
 				"question": "The name of the manufacturer of manual presses with removable dies for marking hashish dimes?",
 				"answers": {
 						"a": "Peacemaker, Austria",
@@ -840,7 +840,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 98,
+				"id": 83,
 				"question": "Is it possible to carry medicinal cannabis, purchased in a Dutch pharmacy across Europe?",
 				"answers": {
 						"a": "Yes, if you have a patient card and filling out the form",
@@ -849,7 +849,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 99,
+				"id": 84,
 				"question": "When do the Nepalese producers of hashish begin their work?",
 				"answers": {
 						"a": "At dawn, when the buds are covered in dew",
@@ -858,7 +858,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 101,
+				"id": 85,
 				"question": "Name the world's first portable butane vaporizer brand",
 				"answers": {
 						"a": "iOlite",
@@ -867,8 +867,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 102,
-				"question": "The name of a car manufacturer, who proposed to make a car out of hemp panels?",
+				"id": 86,
+				"question": "The name of a car manufacturer, who proposed to construct an automoblie made out of hemp plastic?",
 				"answers": {
 						"a": "Ford",
 						"b": "Forbes",
@@ -876,7 +876,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 104,
+				"id": 87,
 				"question": "What is a marijuana dispensary?",
 				"answers": {
 						"a": "A pharmacy where you can purchase medical marijuana",
@@ -885,16 +885,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 105,
-				"question": "In 1706, a decree has been released carrying the death penalty to the merchants and suppliers of hemp. What actions were punishable by decree?",
-				"answers": {
-						"a": "Soaking in water and mixing of a hemp stones for weight gain",
-						"b": "Use of child labor",
-						"c": "Smoking cannabis during the hemp harvest"
-				},
-				"type": "_2"
-		}, {
-				"id": 106,
+				"id": 88,
 				"question": "Can you drink beer in a Dutch coffee shop?",
 				"answers": {
 						"a": "No",
@@ -903,34 +894,16 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 107,
-				"question": "In which countries Internet providers are obligated by law to block the weed-related web sites?",
+				"id": 89,
+				"question": "Is smoking weed allowed in coffe shops in Spain?",
 				"answers": {
-						"a": "Russia, Belarus, North Korea",
-						"b": "Ukraine, Georgia",
-						"c": "Spain, United States"
-				},
-				"type": "_4"
-		}, {
-				"id": 108,
-				"question": "Is smoking weed allowed in the Spanish cafes?",
-				"answers": {
-						"a": "Yes if a cafe is owned the cannabis consumers club",
+						"a": "Yes, if the coffee shop is in the local Cannabis Club property",
 						"b": "No",
 						"c": "If you know the owner"
 				},
 				"type": "_2"
 		}, {
-				"id": 110,
-				"question": "When was the first Cannabis Encyclopedia of Oleg Weedy published?",
-				"answers": {
-						"a": "2001",
-						"b": "2003",
-						"c": "1989"
-				},
-				"type": "_2"
-		}, {
-				"id": 111,
+				"id": 90,
 				"question": "Where in South Asia can cannabis be legally purchased?",
 				"answers": {
 						"a": "Cambodia",
@@ -939,8 +912,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 112,
-				"question": "Name the Argentinian weed-themed magazines",
+				"id": 91,
+				"question": "Name the two main Argentinian weed-themed magazines",
 				"answers": {
 						"a": "Haze, THC",
 						"b": "Buenos porros, Fumos",
@@ -948,7 +921,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 114,
+				"id": 92,
 				"question": "What does the word \"dubbing\" means?",
 				"answers": {
 						"a": "Smoking resins, oils, butane cannabis extract through the hookah with a titanium head",
@@ -957,7 +930,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 115,
+				"id": 93,
 				"question": "A slang word for marijuana popular in 1930's",
 				"answers": {
 						"a": "Reefer",
@@ -966,7 +939,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 116,
+				"id": 94,
 				"question": "A German word for \"cannabis\"",
 				"answers": {
 						"a": "Hanf",
@@ -975,7 +948,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 117,
+				"id": 95,
 				"question": "How do you purchase cannabis seeds in Chech Republic?",
 				"answers": {
 						"a": "Myslíte si, prodat konopných semen?",
@@ -984,7 +957,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 119,
+				"id": 96,
 				"question": "What is the origin of the word 'ganja'?",
 				"answers": {
 						"a": "Sanskrit",
@@ -993,7 +966,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 121,
+				"id": 97,
 				"question": "Why is a reefer but referred to as a roach?",
 				"answers": {
 						"a": "Because 'roach' is a British slang word for a joint.",
@@ -1002,8 +975,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 123,
-				"question": "What is a \"high\"?",
+				"id": 98,
+				"question": "What is a marijuana \"high\"?",
 				"answers": {
 						"a": "Elated, excited state of mind, arising after smoking marijuana",
 						"b": "Depressed, desperate sense of self, a synonym for bad trip",
@@ -1011,8 +984,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 124,
-				"question": "What is a \"stoned\" state?",
+				"id": 99,
+				"question": "What does that mean to be \"stoned\" on weed?",
 				"answers": {
 						"a": "A passive, meditative mood, usually occurs after smoking Indica",
 						"b": "An exited, horny state of mind",
@@ -1020,25 +993,16 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_3"
 		}, {
-				"id": 125,
-				"question": "Существуют ли насекомые - вредители, способные уничтожить урожай?",
+				"id": 100,
+				"question": "Are there pests which target specifically cannabis",
 				"answers": {
-						"a": "Конопляная блошка, паутинный клещ, тля, листовёртка, конопляный клоп",
-						"b": "Вредители не трогают коноплю",
-						"c": "Их не бывает, если опрыскивать коноплю отваром табака"
+						"a": "Yes, there is an insect called cannabis flea, which feeds only on hepm plants. ",
+						"b": "No, cannabis has no natural enemies",
+						"c": "Pests attack cannabis as much as any other plant"
 				},
 				"type": "_6"
 		}, {
-				"id": 126,
-				"question": "How much marijuana is being confiscated by the authorities in Chui valley region each year?",
-				"answers": {
-						"a": "25-30 metric tonns",
-						"b": "150-170 tonns",
-						"c": "4-8 tonns"
-				},
-				"type": "_4"
-		}, {
-				"id": 129,
+				"id": 101,
 				"question": "Who wrote the song Low Rider?",
 				"answers": {
 						"a": "Charles Miller",
@@ -1047,16 +1011,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 130,
-				"question": "Who was the archeologist who found a sample of hemp fabric dating back up to 4000 BC?",
-				"answers": {
-						"a": "Victor Sarianidi",
-						"b": "Yakov Sannikov",
-						"c": "Indiana Jones"
-				},
-				"type": "_2"
-		}, {
-				"id": 132,
+				"id": 102,
 				"question": "To whom does the idea to label the pots of seedlings pegs with a photo grade cannabis belongs to?",
 				"answers": {
 						"a": "Dutch Passion",
@@ -1065,7 +1020,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_5"
 		}, {
-				"id": 133,
+				"id": 103,
 				"question": "Which editions of the Spanish magazine \"Cáñamo\" set free seed samples?",
 				"answers": {
 						"a": "March, April",
@@ -1074,8 +1029,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 134,
-				"question": "When did the author of the book \"The Growers Bible\" registered his cannabis seed bank, and how is it called?",
+				"id": 104,
+				"question": "When did the author of the book \"The Growers Bible\" registered his cannabis seed bank, and what was it called?",
 				"answers": {
 						"a": "2013, Jorge Cervantes Seeds",
 						"b": "2011, Jorge's Seeds",
@@ -1083,16 +1038,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 135,
-				"question": "Where can I buy cannabis seeds of rare American brand?",
-				"answers": {
-						"a": "Seeddepot.nl",
-						"b": "Seed-paket.ru",
-						"c": "Kopodopo.com"
-				},
-				"type": "_6"
-		}, {
-				"id": 136,
+				"id": 105,
 				"question": "How many harvests can be gathered in a hydroponic greenhouse in one year?",
 				"answers": {
 						"a": "Three to eight",
@@ -1101,8 +1047,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 137,
-				"question": "What are the Amsterdam Seeds notorious for?",
+				"id": 106,
+				"question": "What are the Amsterdam Seeds brand notorious for?",
 				"answers": {
 						"a": "Printing their catalogs in more then 12 languages",
 						"b": "Free seed samples for tourists in Amsterdam",
@@ -1110,25 +1056,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 138,
-				"question": "How can you get a free issue of the \"Grass\" magazine?",
-				"answers": {
-						"a": "Register on the magazine's forum",
-						"b": "Write a letter to chief editor",
-						"c": "Pray to Jah"
-				},
-				"type": "_1"
-		}, {
-				"id": 139,
-				"question": "Is cannabis common in Russian military?",
-				"answers": {
-						"a": "Military compounds in far Eastern parts of Russia unofficially report soldiers to be smoking it regulary.",
-						"b": "No way",
-						"c": "Weed is an everyday occurance in the military"
-				},
-				"type": "_4"
-		}, {
-				"id": 140,
+				"id": 107,
 				"question": "Where was the idea of growing pot in the trees originated?",
 				"answers": {
 						"a": "California",
@@ -1137,8 +1065,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_6"
 		}, {
-				"id": 141,
-				"question": "What does the law about the Dutch \"weitpass\" or cannabis card for the locals mean?",
+				"id": 108,
+				"question": "What does the law about the Dutch \"weitpass\" mean for the localr residents of Holland?",
 				"answers": {
 						"a": "Coffeshops near the border don't sell grass to the tourists",
 						"b": "All coffeshops are allowed to sell only to the locals",
@@ -1146,16 +1074,16 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 143,
-				"question": "What gear can help you in detecting unwelcome guests in your greenhouse?",
+				"id": 109,
+				"question": "What kind of survailence gear is most commonly used nowadays to detect unvelcome intrusions in your grow house?",
 				"answers": {
 						"a": "An SMS controller from the G-SE company",
-						"b": "Talking to your neighbour",
-						"c": "Talking to the fortune teller"
+						"b": "A CCTV system",
+						"c": "A fortune teller"
 				},
 				"type": "_6"
 		}, {
-				"id": 144,
+				"id": 110,
 				"question": "How is hashish being prepared for serving in the Dutch coffeeshops?",
 				"answers": {
 						"a": "It's grinded on a special hashish grader",
@@ -1164,8 +1092,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 145,
-				"question": "What is the name of Northern California region famous for being a home of massive marijuana production?",
+				"id": 111,
+				"question": "What is the name of a Northern California region famous for being a home of massive marijuana production?",
 				"answers": {
 						"a": "the Emerald Triangle",
 						"b": "Silicon Valley",
@@ -1173,8 +1101,8 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_4"
 		}, {
-				"id": 146,
-				"question": "Does marijuana impact reproductivity?",
+				"id": 112,
+				"question": "Does marijuana consumption have an impact on the reproductive function?",
 				"answers": {
 						"a": "The impact has not been proven to be drastic or even noticable",
 						"b": "Marijuana makes men impotent",
@@ -1182,16 +1110,16 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_2"
 		}, {
-				"id": 147,
-				"question": "Is Barney's Farm only a seed bank or also the name of a coffeeshop?",
+				"id": 113,
+				"question": "Is 'Barney's Farm' only a seed bank or also the name of a coffeeshop?",
 				"answers": {
-						"a": "Yes, Barney's Farm has a very own coffeeshop in Amsterdam called Haarlemerstraat",
+						"a": "Yes, Barney's Farm has its very own coffeeshop in Amsterdam called Haarlemerstraat",
 						"b": "No, their coffeeshop belongs to another company and only buys weed from Barney",
 						"c": "There is no such coffeeshop"
 				},
 				"type": "_4"
 		}, {
-				"id": 149,
+				"id": 114,
 				"question": "Where can the Weedy Publishing book set be purchased?",
 				"answers": {
 						"a": "It can be ordered in stores affiliate networks listed on the site",
@@ -1200,16 +1128,7 @@ GameHempPuzzles.questions._0 = [{
 				},
 				"type": "_1"
 		}, {
-				"id": 150,
-				"question": "Which of the Russian shops gives matches with your own logo when buying seeds?",
-				"answers": {
-						"a": "www.ruseeds.com",
-						"b": "www.ruspik.ru",
-						"c": "www.dunem.ru"
-				},
-				"type": "_2"
-		}, {
-				"id": 151,
+				"id": 115,
 				"question": "What is the number of lethal cases of marijuana overdose? ",
 				"answers": {
 						"a": "0 persons yet",

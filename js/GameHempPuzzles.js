@@ -309,6 +309,9 @@ GameHempPuzzles.init = function() {
 												navigator.splashscreen.hide();
 										}
 								}
+								if (GameHempPuzzles.isDemo) {
+										GameHempPuzzles.advresing.show();
+								}
 								GameHempPuzzles.gui.showMainScreen();
 
 						};
