@@ -78,7 +78,7 @@ GameHempPuzzles.advresing.showNow = function() {
 
 GameHempPuzzles.advresing.updateTime = function() {
 		try {
-				this.timeView.innerHTML = "Bro rest! We will return to the game after " + (this.time - this.counterTime) + " seconds!";
+				this.timeView.innerHTML = "Stay cool for " + (this.time - this.counterTime) + " seconds, bro!!";
 
 				if (this.counterTime < this.time) {
 						this.counterTime += 1;

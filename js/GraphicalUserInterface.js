@@ -64,14 +64,14 @@ GameHempPuzzles.GraphicalUserInterface = function GraphicalUserInterface(game) {
 		var callbackDemo = function() {
 				GameHempPuzzles.playSound("slectItem");
 				GameHempPuzzles.newGame(GameHempPuzzles.questions.types[this.domElement.view.id]);
-				GameHempPuzzles.showMessageConfirm("Buy?", function(keyId) {
+				GameHempPuzzles.showMessageConfirm("Purchase ads-free version?", function(keyId) {
 						if (keyId == 1) {
 								window.open(GameHempPuzzles.data.appUrl, '_blank', 'location=yes');
 						} else {
 								//GameHempPuzzles.advresing.showNow();
 						}
 
-				}, "Pay the application does not contain ads.", "Yes,No");
+				}, "This version consist advertisements.", "Yes,No");
 				this.domElement.style.background = "rgba(0, 0, 0, 0)";
 				return false;
 		};
